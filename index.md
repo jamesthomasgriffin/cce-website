@@ -1,6 +1,6 @@
 # ColourCloudEdit
 
-A _literally_ transformative technology
+A literally _transformative_ technology
 
 ## What is ColourCloudEdit?
 
@@ -9,17 +9,21 @@ A _literally_ transformative technology
 - It provides a simple, intuitive interface to edit that palette 
 - It transforms your image in realtime giving you instant feedback
 
-## Who wrote it?
-
-- James T. Griffin (PhD). I am a pure mathematician gone rogue
-- I am committed to making my contributions available to all
-- You don't to master the statistics and topology that underpins ColourCloudEdit to use or implement it, I've done the hard work for you!
-
 ## How does it work?
 
 - You feed it your pixels
 - It digests your pixels (using OpenGL compute)
 - It provides a widget
+
+## Who wrote it?
+
+- James T. Griffin (PhD), a pure mathematician gone rogue
+- I am committed to making my contributions available to all
+- You don't need to master the statistics and topology that underpins ColourCloudEdit to use or implement it, I've done the hard work for you!
+
+## What are the system requirements
+
+- In principle any device with OpenGL4.3 or OpenGL ES 3.1 should do, this includes Raspberry Pi 4 for example.  I am targeting Integrated GPUs in the first instance.
 
 ## Can I use it yet?
 
