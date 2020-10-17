@@ -9,6 +9,9 @@ layout: default
 - It provides a simple, intuitive interface to edit that palette 
 - It transforms your original image in realtime giving you instant feedback
 
+<div class="flexbox">
+<div class="flex2">
+  
 ## How does it work?
 
 - The pixel colours (R, G, B) are interpreted as set of 3D points, this is the *Colour Cloud*
@@ -16,6 +19,10 @@ layout: default
 - A statistical model is fitted to the colour cloud, capturing the shape of the colours
 - This model consists of points, lines and triangles, the points form a palette for the image
 - Changing the palette moves parts of the model and using Bayesian inference also moves the cloud, changing the colours of the image
+
+</div>
+<div class="flex1"><img width="300px" alt="Picture of a boat about to set off to Niagara Falls" src="assets/images/niagara.jpg"></div>
+</div>
 
 ## Who wrote it?
 
