@@ -10,7 +10,7 @@ layout: default
 - It transforms your original image in realtime giving you instant feedback
 
 <div class="flexbox">
-<div class="flex2">
+<div class="flex2" markdown="1">
   
 ## How does it work?
 
