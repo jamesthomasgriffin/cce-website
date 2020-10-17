@@ -1,19 +1,21 @@
-# ColourCloudEdit
-
-A literally _transformative_ technology
+---
+layout: default
+---
 
 ## What is ColourCloudEdit?
 
-- It is a simple widget that allows you to transform the colours in an image
-- It finds a palette for your image
+- It is a simple widget that allows the user to transform the colours in an image
+- It finds a palette representing the pixels you give it
 - It provides a simple, intuitive interface to edit that palette 
-- It transforms your image in realtime giving you instant feedback
+- It transforms your original image in realtime giving you instant feedback
 
 ## How does it work?
 
-- You feed it your pixels
-- It digests your pixels (using OpenGL compute)
-- It provides a widget
+- The pixel colours (R, G, B) are interpreted as set of 3D points, this is the *Colour Cloud*
+- The colour cloud is not amorphous, it has a complicated shape
+- A statistical model is fitted to the colour cloud, capturing the shape of the colours
+- This model consists of points, lines and triangles, the points form a palette for the image
+- Changing the palette moves parts of the model and using Bayesian inference also moves the cloud, changing the colours of the image
 
 ## Who wrote it?
 
@@ -23,7 +25,7 @@ A literally _transformative_ technology
 
 ## What are the system requirements
 
-- In principle any device with OpenGL4.3 or OpenGL ES 3.1 should do, this includes Raspberry Pi 4 for example.  I am targeting Integrated GPUs in the first instance.
+- In principle any device with OpenGL 4.3 or OpenGL ES 3.1 should do, this includes Raspberry Pi 4 for example.  I am targeting Integrated GPUs in the first instance.
 
 ## Can I use it yet?
 
