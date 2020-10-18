@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: ColourCloudEdit
 description: Edit colours easily
 show_downloads: false
+
+github:
+  is_project_page: false
