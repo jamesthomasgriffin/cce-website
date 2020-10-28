@@ -32,7 +32,8 @@ layout: default
 
 ## What are the system requirements
 
-- In principle any device with OpenGL 4.3 or OpenGL ES 3.1 should do, this includes Raspberry Pi 4 for example.  I am targeting Integrated GPUs in the first instance.
+- In principle any device with OpenGL 4.3 or OpenGL ES 3.1 and the GL\_OES\_shader\_image\_atomic extension should do, this includes Raspberry Pi 4B. 
+I am targeting Integrated GPUs in the first instance.
 
 ## Can I use it yet?
 
