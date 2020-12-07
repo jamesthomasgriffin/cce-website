@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: ColourCloudEdit
 description: Edit colours easily
+baseurl: /cce-website
 show_downloads: false
 
 github:
