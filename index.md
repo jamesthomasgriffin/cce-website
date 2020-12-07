@@ -14,7 +14,7 @@ layout: default
   
 ## How does it work?
 
-- The pixel colours (R, G, B) are interpreted as set of 3D points, this is the *Colour Cloud*
+- The pixel colours (R, G, B) are interpreted as set of 3D points, together they form the *Colour Cloud*
 - The colour cloud is not amorphous, it has a complicated shape
 - A statistical model is fitted to the colour cloud, capturing the shape of the colours
 - This model consists of points, lines and triangles, the points form a palette for the image
@@ -32,8 +32,7 @@ layout: default
 
 ## What are the system requirements
 
-- In principle any device with OpenGL 4.3 or OpenGL ES 3.1 and the GL\_OES\_shader\_image\_atomic extension should do, this includes Raspberry Pi 4B. 
-I am targeting Integrated GPUs in the first instance.
+- In principle any device with OpenGL 4.5, I am targeting Integrated GPUs in the first instance.
 
 ## Can I use it yet?
 
