@@ -7,7 +7,7 @@ $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #000 !default;
+$header-heading-color: #fff !default;
 $header-bg-color: #159957 !default;
 $header-bg-color-secondary: #155799 !default;
 
@@ -26,6 +26,18 @@ $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
+nav {
+  margin-bottom: -1em;
+}
+
+nav > a{
+  color: $header-heading-color;
+  margin: 0 3ch;
+}
+
+.current {
+  font-weight: bold;
+}
 
 @import "{{ site.theme }}";
 
